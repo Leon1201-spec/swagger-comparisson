@@ -1,0 +1,10 @@
+name: "swagger-endpoints"
+path: "/example/api-docs"
+https: true
+hosts:
+  - "sandbox.example.com"
+  - "staging.example.com"
+  - "production.example.com"
+slack-webhook: "https://hooks.slack.com/services/example"
+slack-channel: "example_channel"
+
